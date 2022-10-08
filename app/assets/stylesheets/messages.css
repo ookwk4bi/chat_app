@@ -32,18 +32,24 @@ background-color: #fff;
     height: 100px;
     background-color: #fff;
     padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .midle-main{
     height: calc(100vh - 90px);
     background-color: #FAFAFA;
     padding: 46px 40px 0;
+    overflow: scroll;
 }
 
 .bottom-main{
     height: 90px;
     background-color: #ddd;
     padding: 20px 40px;
+    display: flex;
+    
 }
 
 .tom a{
@@ -68,3 +74,83 @@ background-color: #fff;
     text-decoration: none;
     color: white;
 }
+
+.hogefuga p{
+font-size: 24px;
+color: #333;
+}
+
+.chat-finish a{
+    border: solid 1px darkred;
+    padding: 20px;
+    text-decoration: none;
+    color: darkred;
+}
+
+.message {
+    margin: 10px 0 0 0;
+  }
+  
+  .upper-message{
+    display: flex;
+  }
+  
+  .message-user {
+    color: #434a54;
+    font-size: 16px;
+  }
+  
+  .message-date {
+    color: #999;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  
+  .lower-message {
+    margin-top: 10px;
+  }
+  
+  .message-content {
+    color: #434a54;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .form-input{
+      color: #DDD;
+      background-color: #fff;
+      width: 100%;
+      display: flex;
+       }
+
+    .form-message{
+        
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    }
+
+    .form-submit{
+        margin-left: 15px;
+        font-size: 16px;
+        color: white;
+        background-color: #38AEF0;
+        height: 50px;
+        padding: 0 20px;
+        border: none;
+    }
+
+    .form-image {
+        font-size: 12px;
+        background-color: lightblue;
+        color: white;
+        padding: 12px;
+        width: 60px;
+        margin: 5px 10px;
+        text-align: center;
+      }
+
+      .hidden {
+        display: none;
+      }
