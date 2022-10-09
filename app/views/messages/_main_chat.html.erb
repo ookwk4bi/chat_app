@@ -1,6 +1,6 @@
 <div class="top-main">
     <div class="hogefuga">
-        <p>hogefuga</p>
+         <%= @room.name %>
     </div>
     <div class="chat-finish">
         <a href="#">チャットを終了する</a>
@@ -20,9 +20,9 @@
       <span class="image-file">画像</span>
       <%= f.file_field :image, class: 'hidden' %>
     </label>
+    <%= f.submit '送信', class: 'form-submit' %>
   </div>
-
-  <%= f.submit '送信', class: 'form-submit' %>
+    
 <% end %>
 </div>
 
